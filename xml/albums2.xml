@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE collection SYSTEM "colleciton.dtd">
+
+<collection>
+<album>
+	<title>Moon Safari</title>
+	<artist>Air</artist>
+	<review>blah blah</review>
+</album>
+
+<album>
+	<title>The Hour of Bewilderbeast</title>
+	<artist>Badly Drawn Boy</artist>
+	<song length="5:18" track="1">The Shining</song>
+	<song length="3:40" track="2">Everybodys Stalking</song>
+	<review>this sucks</review>
+</album>
+
+<album>
+	<title>Lazer Guided Melodies</title>
+	<artist>Spiritualized</artist>
+	<cover_image filename="lgm.jpg" />
+</album>
+</collection>

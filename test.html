@@ -1,0 +1,42 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mods/default/style.css" />
+	<script type="text/javascript" src="javascript/ajaxforum.inc.js"></script>
+	<script language="javascript">
+		function doClick ()
+		{
+			var threadController = new cThreadController();
+			threadController.updateThread(2);
+		}
+	</script>
+</head>
+<body>
+
+<div id="divPosts">
+</div>
+
+<!-- POST TEMPLATE -->
+<div id="post_template" style="display:none;visibility:hidden">
+<div>
+<table class="normal" width="100%">
+<tr>
+	<td class="leftcell">
+		~%poster_name%~<br />
+		~%poster_title%~<br />
+
+		<br />
+		<span class="small">Posts: ~%poster_num_posts%~</span>
+	</td>
+	<td class="rightcell">
+		~%message_text%~
+	</td>
+</tr>
+</table>
+</div>
+</div>
+<!-- /POST TEMPLATE -->
+
+<input type="button" onclick="doClick()" value="get posts" />
+
+</body>
+</html>
